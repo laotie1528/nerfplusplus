@@ -8,7 +8,7 @@ from normalize_cam_dict import normalize_cam_dict
 #########################################################################
 
 def bash_run(cmd):
-    colmap_bin = '/home/zhangka2/code/colmap/build/__install__/bin/colmap'
+    colmap_bin = 'colmap'
     cmd = colmap_bin + ' ' + cmd
     print('\nRunning cmd: ', cmd)
 
